@@ -19,41 +19,44 @@ dsh plugin --profile web add ./plugins/dsh-code-reviewer
 
 ## 插件分类
 
-### 工程方法论 (30+)
-`tdd` · `refactoring-guide` · `code-reviewer` · `unit-test-author` · `systematic-debugging` · `brainstorming` · `writing-plans` · `executing-plans` · `subagent-driven-development` · `verification-before-completion` · `requesting-code-review` · `receiving-code-review` · `using-git-worktrees` · `finishing-a-development-branch` · `writing-skills` · `ponytail-dev` · `karpathy-methodology` · `superpowers-essentials` · `doubt-driven-dev` · `context-engineering` · `domain-modeling` · `codebase-design` · `spec-driven` · `incremental` · `idea-refine` · `shipping` · `source-driven` · `code-simplify` · `debug-recovery` · `docs-adr`
+> 共 206 个可安装插件（另有 `_template` 开发模板），按 12 类整理。
 
-### API & 架构 (20+)
-`api-designer` · `api-design` · `api-documentation` · `api-scaffolding` · `architecture` · `microservices` · `event-driven-architecture` · `service-mesh` · `db-migration` · `database-design` · `sql-optimizer` · `sql-optimization` · `monorepo` · `terraform` · `kubernetes-operations` · `gitops` · `cicd` · `git-workflow` · `git-guardrails` · `gitops`
+### 工程方法论 (32)
+`agent-teams` · `code-reviewer` · `code-simplify` · `codebase-design` · `context-engineering` · `debug-recovery` · `deprecation` · `distributed-debugging` · `docs-adr` · `domain-modeling` · `doubt-driven-dev` · `error-handling` · `framework-migration` · `grill-me` · `idea-refine` · `incremental` · `issue-triage` · `karpathy-methodology` · `merge-conflicts` · `parallel-dev` · `ponytail-dev` · `postmortem` · `refactoring-guide` · `shipping` · `source-driven` · `spec-driven` · `superpowers-essentials` · `tdd` · `tech-debt` · `track-driven-dev` · `unit-test-author` · `workflow-loop`
 
-### 前端 & UI (15+)
-`frontend-design` · `frontend-engineering` · `frontend-mobile` · `web-clone` · `web-artifacts` · `html-template-library` · `html-ppt` · `frontend-slides` · `pptx-engineering` · `canvas-design` · `css-art-styles` · `diagram-design` · `screenshot-to-code` · `a11y-audit` · `better-interface` · `hallmark-design` · `brand-design` · `brand-landingpage`
+### API & 架构 (20)
+`api-design` · `api-designer` · `api-documentation` · `api-scaffolding` · `architecture` · `cicd` · `cloud-well-architected` · `database-design` · `db-migration` · `event-driven-architecture` · `git-guardrails` · `git-workflow` · `gitops` · `kubernetes-operations` · `microservices` · `monorepo` · `service-mesh` · `sql-optimization` · `sql-optimizer` · `terraform`
 
-### 后端 & DevOps (15+)
-`python-development` · `javascript-typescript` · `dotnet-backend` · `systems-programming` · `functional-programming` · `bash-scripting` · `bash-testing` · `dockerfile-pro` · `kubernetes-operations` · `cloud-cost-optimization` · `hybrid-cloud` · `multi-cloud` · `bazel-build-optimization` · `payment-processing` · `auth`
+### 前端 & UI (19)
+`a11y-audit` · `better-interface` · `brand-design` · `brand-landingpage` · `canvas-design` · `css-art-styles` · `diagram-design` · `frontend-design` · `frontend-engineering` · `frontend-mobile` · `frontend-slides` · `hallmark-design` · `html-ppt` · `html-template-library` · `pptx-engineering` · `screenshot-to-code` · `web-artifacts` · `web-clone` · `web-scripting`
 
-### AI & ML (10+)
-`llm-eval` · `llm-finetuning` · `llm-api-integration` · `mlops` · `rag` · `prompt-engineering` · `prompt-audit` · `dataset-curation` · `vector-search` · `ai-image-design` · `self-improving-agent` · `autonomous-research` · `skill-optimization`
+### 后端 & DevOps (20)
+`auth` · `bash-scripting` · `bash-testing` · `bazel-build-optimization` · `blockchain-web3` · `cloud-cost-optimization` · `dotnet-backend` · `full-stack-orchestration` · `functional-programming` · `hybrid-cloud` · `javascript-typescript` · `multi-cloud` · `observability` · `observability-tools` · `payment-processing` · `performance` · `python-development` · `runbook` · `slo` · `systems-programming`
 
-### 安全 & 合规 (10+)
-`security-hardening` · `security-compliance` · `security-requirements` · `sast-security` · `threat-modeling` · `a11y-audit` · `pci-compliance` · `hr-legal-compliance` · `reverse-engineering` · `signed-audit-trails`
+### AI & ML (17)
+`agent-loop-engineering` · `ai-image-design` · `autonomous-research` · `dataset-curation` · `llm-api-integration` · `llm-eval` · `llm-finetuning` · `mlops` · `parallel-agent-ade` · `prompt-audit` · `prompt-engineering` · `rag` · `review-agent-governance` · `self-improving-agent` · `skill-optimization` · `vector-search` · `virtual-eng-team`
 
-### 写作 & 沟通 (15+)
-`technical-writer` · `writing-for-agents` · `writing-shape` · `writing-beats` · `writing-fragments` · `internal-comms` · `doc-coauthoring` · `document-generation` · `changelog` · `commit-message` · `content-distillation` · `content-marketing` · `social-publishing` · `x-twitter-research`
+### 安全 & 合规 (10)
+`contract-review` · `hr-legal-compliance` · `pci-compliance` · `reverse-engineering` · `sast-security` · `security-compliance` · `security-hardening` · `security-requirements` · `signed-audit-trails` · `threat-modeling`
 
-### 测试 (10+)
-`unit-test-author` · `webapp-testing` · `browser-testing` · `e2e-testing` · `test-driven-development` · `recsys-pipeline` · `deployment-validation` · `before-you-build`
+### 写作 & 沟通 (16)
+`changelog` · `commit-message` · `content-distillation` · `content-marketing` · `doc-coauthoring` · `doc-compiled-skills` · `document-generation` · `internal-comms` · `social-publishing` · `teach` · `technical-writer` · `writing-beats` · `writing-for-agents` · `writing-fragments` · `writing-shape` · `x-twitter-research`
 
-### 数据 & 分析 (10+)
-`data-engineering` · `data-quality` · `data-storytelling` · `scientific-research` · `academic-research` · `investment-research` · `recsys-pipeline` · `cad-modeling` · `game-development`
+### 测试 (7)
+`before-you-build` · `browser-testing` · `code-review` · `deployment-validation` · `e2e-testing` · `test-desktop-app` · `webapp-testing`
 
-### 产品 & 设计 (10+)
-`project-planner` · `planning` · `planning-files` · `kpi-dashboard-design` · `designmd` · `ppt-creator` · `brand-guidelines` · `theme-factory` · `algorithmic-art` · `gif-creator`
+### 数据 & 分析 (10)
+`academic-research` · `cad-modeling` · `data-engineering` · `data-quality` · `data-storytelling` · `game-development` · `investment-research` · `quant-backtest` · `recsys-pipeline` · `scientific-research`
 
-### 效率 & 工具 (15+)
-`handoff` · `context-engineering` · `persistent-memory` · `caveman-speak` · `adhd-friendly` · `last30days` · `live-docs` · `obsidian-vault` · `knowledge-brain` · `repo-graphify` · `skill-seekers` · `cli-anything` · `office-cli` · `desktop-agent-gui` · `model-gateway` · `boss-agent-cli`
+### 产品 & 设计 (15)
+`algorithmic-art` · `brand-guidelines` · `designmd` · `gif-creator` · `kpi-dashboard-design` · `marketing-growth` · `operating-kit` · `planning` · `planning-files` · `ppt-creator` · `project-planner` · `prototype` · `startup-business-analyst` · `taste-review` · `theme-factory`
 
-### 生活 & 趣味 (10+)
-`relationship-coach` · `career-ops` · `humanizer-zh` · `investment-research` · `colleague-creation` · `swarm-prediction` · `social-simulation` · `opinion-analysis` · `geo-seo` · `brand-design`
+### 效率 & 工具 (29)
+`adhd-friendly` · `agent-reach` · `boss-agent-cli` · `caveman-speak` · `channel-assistant` · `cli-anything` · `codebase-scanner` · `desktop-agent-gui` · `file-conversion` · `handoff` · `harness-os` · `knowledge-brain` · `last30days` · `live-docs` · `mcp-builder` · `meeting-minutes` · `model-gateway` · `obsidian-vault` · `office-cli` · `pdf-processing` · `persistent-memory` · `plugin-eval` · `repo-graphify` · `sales-automation` · `setup-wizard` · `skill-creator` · `skill-seekers` · `to-questionnaire` · `wayfinder`
+
+### 生活 & 趣味 (11)
+`career-ops` · `colleague-creation` · `discernment-nudge` · `geo-seo` · `hot-trends` · `humanizer-zh` · `opinion-analysis` · `personal-content-discovery` · `relationship-coach` · `social-simulation` · `swarm-prediction`
+
 
 ## 目录结构
 
