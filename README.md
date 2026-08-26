@@ -1,6 +1,6 @@
 # DSH Skills Bundle
 
-> 206 个 DSH skill 插件合集 — 一个仓库搞定 DeepSeek Harness 技能库
+> 207 个 DSH skill 插件合集 — 一个仓库搞定 DeepSeek Harness 技能库
 
 [![dsh-plugin](https://img.shields.io/badge/DSH-Plugin-blue)](https://github.com/topics/dsh-plugin)
 [![npm](https://img.shields.io/npm/v/dsh-skills-bundle)](https://www.npmjs.com/package/dsh-skills-bundle)
@@ -50,7 +50,7 @@ dsh plugin --profile web add ./plugins/dsh-code-reviewer
 `project-planner` · `planning` · `planning-files` · `kpi-dashboard-design` · `designmd` · `ppt-creator` · `brand-guidelines` · `theme-factory` · `algorithmic-art` · `gif-creator`
 
 ### 效率 & 工具 (15+)
-`handoff` · `context-engineering` · `persistent-memory` · `caveman-speak` · `adhd-friendly` · `last30days` · `live-docs` · `obsidian-vault` · `knowledge-brain` · `repo-graphify` · `skill-seekers` · `cli-anything` · `office-cli` · `desktop-agent-gui` · `model-gateway`
+`handoff` · `context-engineering` · `persistent-memory` · `caveman-speak` · `adhd-friendly` · `last30days` · `live-docs` · `obsidian-vault` · `knowledge-brain` · `repo-graphify` · `skill-seekers` · `cli-anything` · `office-cli` · `desktop-agent-gui` · `model-gateway` · `boss-agent-cli`
 
 ### 生活 & 趣味 (10+)
 `relationship-coach` · `career-ops` · `humanizer-zh` · `investment-research` · `colleague-creation` · `swarm-prediction` · `social-simulation` · `opinion-analysis` · `geo-seo` · `brand-design`
@@ -69,7 +69,7 @@ dsh-skills-bundle/
 │   │   ├── skills/code-reviewer/SKILL.md
 │   │   └── README.md
 │   ├── dsh-unit-test-author/
-│   └── ... (206 个插件)
+│   └── ... (207 个插件)
 └── scripts/
     └── validate-all.mjs  # 全量校验脚本
 ```
@@ -128,3 +128,4 @@ MIT License — 各插件保留其原始许可证
 - [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)
 - [DSH Plugin Topic](https://github.com/topics/dsh-plugin)
 - [Awesome DeepSeek Harness](https://github.com/Dominic789654/awesome-deepseek-harness)
+
