@@ -1,9 +1,0 @@
-# Patch layer applied when a profile lists this bundle.
-# Reference the package by name (not relative path) so Node resolution finds
-# the installed code. Later layers win per row id.
-
-- insert:
-    - id: template
-      name: dsh-plugin-template
-      # config:            # uncomment to pass configuration
-      #   someOption: true
