@@ -1,0 +1,26 @@
+{
+  "name": "dsh-skills-bundle",
+  "version": "1.0.0",
+  "description": "199 DSH skill plugins in one monorepo — comprehensive collection for DeepSeek Harness",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "plugins/*"
+  ],
+  "scripts": {
+    "lint": "node scripts/validate-all.mjs",
+    "stats": "node scripts/stats.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satan9394/dsh-skills-bundle.git"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "skills",
+    "plugins",
+    "bundle"
+  ]
+}

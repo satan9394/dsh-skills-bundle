@@ -1,0 +1,4 @@
+# dsh-code-reviewer：注入代码审查技能到系统提示
+- insert:
+    - id: dsh-code-reviewer
+      name: 'dsh-code-reviewer'

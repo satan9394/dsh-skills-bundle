@@ -1,0 +1,26 @@
+{
+  "name": "dsh-code-reviewer",
+  "version": "1.0.0",
+  "type": "module",
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "skills": ["./skills/code-reviewer/SKILL.md"]
+  },
+  "exports": {
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "metadata": {
+    "category": "skill",
+    "displayName": {
+      "en": "Code Reviewer",
+      "zh": "代码审查员"
+    },
+    "summary": {
+      "en": "Reviews code diffs and pull requests for correctness bugs, security vulnerabilities, and quality issues with severity-ranked findings and fix suggestions.",
+      "zh": "审查代码差异和拉取请求，找出正确性缺陷、安全漏洞和质量问题，提供严重等级排序的发现和修复建议。"
+    }
+  },
+  "license": "MIT",
+  "keywords": ["code-review", "security", "bug-detection", "pull-request"]
+}
