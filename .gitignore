@@ -1,3 +1,20 @@
 node_modules/
 *.tgz
 .DS_Store
+
+# --- security hardening (added 2026-09-18) ---
+# env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa
+id_ed25519
+.netrc
+.npmrc.local
+.pypirc
+secrets.json
