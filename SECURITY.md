@@ -37,6 +37,19 @@
 - **不要**在 Issue / PR / 截图中提交真实密钥、令牌、`.env` 内容或私有数据。
 - 依赖漏洞请优先依赖 Dependabot 告警；如属本项目代码缺陷，按上述渠道上报。
 
+## 供应链加固（GitHub Actions）
+
+为防止第三方 Action 被篡改（tag 漂移 / 上游账号被劫持）而引入供应链攻击，本仓库采取以下机器级强制措施：
+
+- **强制 SHA 固定**：仓库已启用 `sha_pinning_required`。所有工作流引用的 Action
+  必须以 40 位 commit SHA 固定，仅写 `@v4` 之类可变 tag 会被 GitHub 直接拒绝执行。
+- **收紧允许的 Action**：仓库 Actions 权限由 `all` 收紧为 `selected`，仅允许
+  **GitHub 官方 Action** 与 **Marketplace 已验证发布者**的 Action。
+- **现状**：工作流 `.github/workflows/ci.yml` 仅使用 `actions/checkout`，已固定为
+  `11d5960a326750d5838078e36cf38b85af677262`（注释 `# v4`），无需改动即满足上述策略。
+
+新增或升级 Action 时，请固定到目标 release 对应的 commit SHA，并在行尾注释保留可读的版本号。
+
 ## 披露政策
 
 - 修复发布前：仅维护者与报告者知情。
